@@ -1,4 +1,4 @@
-//FUNCIONES
+// FUNCIONES
 
 // Declarativa
 function nombreFunction(parametro1, parametro2) {
