@@ -40,8 +40,8 @@ class CarWithEncapsulation {
 
 const fiat = new CarWithEncapsulation("Fiat 500", 2019);
 
-fiat._speed = 50; // Error: Property '_speed' is private and only accessible within class 'CarWithEncapsulation'.
-fiat._fuel = 80; // Error: Property '_fuel' is private and only accessible within class 'CarWithEncapsulation'.
+//fiat._speed = 50; // Error: Property '_speed' is private and only accessible within class 'CarWithEncapsulation'.
+//fiat._fuel = 80; // Error: Property '_fuel' is private and only accessible within class 'CarWithEncapsulation'.
 
 // En su lugar, usamos el getter:
 fiat.accelerate();
