@@ -28,3 +28,9 @@
     "express": "^5.1.0"
   }
 */
+
+//En esto de las dependencias tambien podemos ver dependencias globales
+// Las globales son aquellas que se instalan en todo el sistema y no en un proyecto en particular
+// Se instalan utilizando la flag -g
+// Es útil para paquetes que sabemos que vamos a utilizar en varios proyectos, como por ejemplo
+// nodemon, typescript, etc.
