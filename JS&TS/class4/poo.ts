@@ -51,5 +51,3 @@ console.log(carYear);
 car.start();
 car.accelerate
 car.honk();
-
-//Prueba de git
