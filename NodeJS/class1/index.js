@@ -34,3 +34,5 @@
 // Se instalan utilizando la flag -g
 // Es útil para paquetes que sabemos que vamos a utilizar en varios proyectos, como por ejemplo
 // nodemon, typescript, etc.
+// El problema con esto es que si trabajamos en equipo, cada uno va a tener que adivinar cual es esta dependencia global
+// Por eso siempre es mejor instalar las dependencias en cada proyecto, ya que se quedan registradas en el package.json
