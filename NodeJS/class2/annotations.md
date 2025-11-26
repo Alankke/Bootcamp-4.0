@@ -29,3 +29,13 @@ Es uno de los frameworks de backend mas populares para Node.js y es una parte ex
 ## Ruta básica
 Instalaremos el paquete de Express.js con `npm install express`
 Crearemos un archivo `server.ts` para alojar dentro de ella la estructura principal del servidor
+
+## *Rutas*
+### Ruta
+Es una cadena de texto que representa la URL que desencadenará la ejecución del controlador.
+
+### Controlador
+Es una función que se ejecuta cuando se recibe una solicitud GET a la ruta especificada.
+
+## Parámetros y Querys
+Las rutas GET, por ejemplo, pueden incluir parámetros para capturar información especifica de la solicitud. Los parámetros se definen utilizando expresiones regulares en la ruta y se pueden acceder desde el objeto req en el controlador
