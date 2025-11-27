@@ -27,7 +27,7 @@ Se utilizan para transmitir información adicional tanto en las peticiones, como
 Es uno de los frameworks de backend mas populares para Node.js y es una parte extensa del ecosistema JavaScript.
 
 ## Ruta básica
-Instalaremos el paquete de Express.js con `npm install express`
+Instalaremos el paquete de Express.js con <br>`npm install express`<br><br>
 Crearemos un archivo `server.ts` para alojar dentro de ella la estructura principal del servidor
 
 ## *Rutas*
@@ -37,5 +37,21 @@ Es una cadena de texto que representa la URL que desencadenará la ejecución de
 ### Controlador
 Es una función que se ejecuta cuando se recibe una solicitud GET a la ruta especificada.
 
-## Parámetros y Querys
+## *Parámetros y Querys*
 Las rutas GET, por ejemplo, pueden incluir parámetros para capturar información especifica de la solicitud. Los parámetros se definen utilizando expresiones regulares en la ruta y se pueden acceder desde el objeto req en el controlador
+
+### Querys
+El objeto req.query permite acceder a los parámetros de consulta que se envían dentro de la solicitud
+Estos parámetros son pares clave-valor que se agregan a la URL después del signo de interrogación y se separan por el símbolo &.
+
+Ejemplo:  
+```localhost:3000/user?nombre=John&apellido=Connor&edad=30```
+
+## Envío de datos
+### Verbos HTTP
+Los verbos definen el tipo de acción que se desea realizar sobre un recurso en el servidor.
+
+## Cuerpos de la solicitud
+El cuerpo de la solicitud HTTP es donde se envian los datos reales.
+Formatos:  
+**JSON**
