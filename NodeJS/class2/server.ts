@@ -23,3 +23,11 @@ app.get("/products/:id", (req: Request, res: Response) => {
   const productId = req.params.id; //De las dos formas es lo mismo, en el caso anterior lo separó en una variable aparte
   res.send(`Producto solicitado: ${id}`);
 });
+
+//Envío de datos 
+app.post("/new-user", (req: Request, res: Response) => {
+  const { name, lastname, email } = req.body;
+
+  // Aquí normalmente guardaríamos los datos en una base de datos
+  res.send(`Usuario ${name} ${lastname} con email ${email} creado exitosamente.`);
+});

@@ -52,6 +52,14 @@ Ejemplo:
 Los verbos definen el tipo de acción que se desea realizar sobre un recurso en el servidor.
 
 ## Cuerpos de la solicitud
-El cuerpo de la solicitud HTTP es donde se envian los datos reales.
-Formatos:  
-**JSON**
+El cuerpo de la solicitud HTTP es donde se envían los datos reales.<br><br>
+Formatos:<br><br>
+**JSON**: Formato de texto ligero y estructurado para intercambiar datos<br><br>
+**HTML**: Datos enviados a traves de formularios web. Formato application/x-www-form-urlencoded<br><br>
+**Archivos**: Envío de archivos binarios, como imágenes o documentos. Formatos como multipart/form-data
+
+## Cabeceras de la solicitud
+Las cabeceras de solicitud HTTP **proporcionan metadatos adicionales sobre la solicitud.** Tipo de contenido del cuerpo, longitud de datos, origen de solicitud.<br><br>
+Algunas cabeceras comunes para el envío son:<br><br>
+**Content-Type:** Indica el tipo de datos que se envían en el cuerpo de la solicitud
+**Content-Length:** Especifica la longitud de los datos en bytes en el cuerpo de la solicitud.
